@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RESUME REVIEW SYSTEM</title>
+    <link href="ResReview.css" rel="stylesheet">
+</head>
+<body class="background">
+
+    <h1>RESUME REVIEW SYSTEM</h1>
+<div class="logo">
+    <img src="template pics/logo.png" alt="PAPERDEY LOGO">
+</div>
+
+<form action="ResReview.php" method="post" enctype="multipart/form-data">
+<div class="all-fieldset">
+<fieldset>
+    <h1 class="heading">Customer Name</h1>
+    <label for="customer-name"> Name: 
+        <input type="text" name="cus_name" size="30" placeholder="Enter Customer Name">
+    </label>
+</fieldset>
+
+<fieldset>
+    <h1 class="heading">Select For Contact Details</h1>
+
+    <label for="c1"> 
+        <input type="radio" name="choose_one" value="1. Kindly provide your email address and phone number."> 
+        1. Kindly provide your email address and phone number.
+     </label><br>
+
+     <label for="c2"> 
+        <input type="radio" name="choose_one" value="1. Kindly provide your phone number, postal or digital address."> 
+        1. Kindly provide your phone number, postal or digital address.
+     </label><br>
+
+     <label for="c3"> 
+        <input type="radio" name="choose_one" value="1. Kindly provide your email address, postal or digital address."> 
+        1. Kindly provide your email address, postal or digital address.
+     </label><br>
+
+    <label for="c4"> 
+       <input type="radio" name="choose_one" value="1. Kindly provide your email address."> 
+       1. Kindly provide your email address.
+    </label><br>
+
+    <label for="c5"> 
+        <input type="radio" name="choose_one" value="1. Kindly provide your phone number."> 
+        1. Kindly provide your phone number.
+     </label><br>
+
+     <label for="c6"> 
+        <input type="radio" name="choose_one" value="1. Kindly provide your postal or digital address"> 
+        1. Kindly provide your postal or digital address.
+     </label><br>
+</fieldset>
+      
+<fieldset>
+    <h1 class="heading">Select To Confirm From Client</h1>
+    <label for="confirm">
+        <input type="radio" name="confirm" value="2. Should we change the form of sentences in your CV or maintain them? 
+        Eg. Should we add or subtract if the need arises? and also give you a Career Objective that relates to the job you are applying for?" required>
+        2. Should we change the form of sentences in your CV or maintain? 
+        Eg. Should we add or subtract if the need arises? and also a Career Objective that relates to the job you are applying for?
+    </label>
+</fieldset>
+
+<fieldset>
+    <h1 class="heading">Select For Education</h1>
+    <label for="edu1">
+        <input type="radio" name="education" value="3. Kindly provide the SHS and JHS you attended. Include the 
+        dates you started and completed, and also the program you offered at SHS.">
+        3. Kindly provide the SHS and JHS you attended. Include the 
+        dates you started and completed, and also the program you offered at SHS. 
+    </label><br>
+
+    <label for="edu2">
+        <input type="radio" name="education" value="3. Kindly provide the SHS you attended. Include the 
+        dates you started and completed, and also the program you offered at SHS.">
+        3. Kindly provide the SHS you attended. Include the dates you started and completed, 
+        and also the program you offered at SHS. 
+    </label><br>
+
+    <label for="edu3">
+        <input type="radio" name="education" value="3. Kindly provide the JHS you attended and include the 
+        dates you started and completed.">
+        3. Kindly provide the JHS you attended and include the dates you started and completed. 
+    </label><br>
+</fieldset>
+ 
+<fieldset>
+    <h1 class="heading">Select For Work Experience</h1>
+
+    <label for="work1">
+        <input type="radio" name="work" value="4. Do you have any work experience in the job you are applying for?
+        If so, kindly provide the name of the organization(s) you worked for, the dates you started and completed,
+        the job position you held there and the job duties.">
+        4. Do you have any work experience in the job you are applying for? 
+        If so, kindly provide the name of the organization(s) you worked for, the dates you started and completed,
+        the job position you held there and the job duties.
+      </label><br>
+
+    <label for="work2">
+      <input type="radio" name="work" value="4. Some of your work experience do not have dates. Kindly provide the 
+      dates you started and completed working at the organizations.">
+      4. Some of your work experience do not have dates. Kindly provide the dates you started and 
+      completed working at the organizations.
+    </label><br>
+
+    <label for="work3">
+        <input type="radio" name="work" value="4. Some of your work experience do not have job positions and work duties. 
+        Should we provide you with some? If not kindly provide the positions and the work duties at the organizations.">
+        4. Some of your work experience do not have job positions and work duties. Should we provide you with some? 
+        If not kindly provide the positions and the work duties at the organizations.
+      </label><br>
+    
+      <label for="work4">
+        <input type="radio" name="work" value="4. Your work experience do not have duties. 
+        Should we provide you with some? If not kindly provide the work duties at the organizations.">
+        4. Your work experience do not have duties. Should we provide you with some? 
+        If not kindly provide the work duties at the organizations.
+      </label><br>
+
+      <label for="work5">
+        <input type="radio" name="work" value="4. Some of your work experience do not have dates, job positions and work
+        duties. Kindly provide the dates, positions and the work duties at the organizations.">
+        4. Some of your work experience do not have dates, job positions and work
+        duties. Kindly provide the dates, positions and the work duties at the organizations.
+      </label><br>
+
+      <label for="work6">
+        <input type="radio" name="work" value="4. Some of your work experience do not have dates and work
+        duties. Kindly provide the dates and the work duties at the organizations.">
+        4. Some of your work experience do not have dates and work duties. 
+        Kindly provide the dates and the work duties at the organizations.
+      </label><br>
+</fieldset>
+
+<fieldset>
+    <h1 class="heading">Select For Seminar/Training/Workshop</h1>
+    <label for="seminar">
+      <input type="radio" name="seminar" value="5. Have you attended any seminars/training/workshop that relates to the 
+      job position you are offering? If so, kindly provide the name of the seminars/training/workshop, 
+      the institution that offered them and the dates 
+      they took place.">5. Have you attended any seminars/training/workshop that relates to the 
+      job position you are offering? If so, kindly provide the name of 
+      the seminars/training/workshop, the institution that offered them and the dates they took place.
+    </label>
+</fieldset>
+
+
+<fieldset>
+    <h1 class="heading">Employee Name</h1>
+    <label for="emp-name"> Name: 
+        <input type="text" name="emp_name" size="30" placeholder="Enter Employee Name">
+    </label>
+</fieldset>
+</div>
+
+<fieldset>
+<label>
+    <button class="button">Submit</button>
+</label>
+</fieldset>
+
+</form>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

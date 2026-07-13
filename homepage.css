@@ -1,0 +1,39 @@
+h1, h2{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.background {
+    background-color: rgb(0, 0, 0);
+}
+
+.logo {
+    width: 380px; /* Set the width of the logo */
+    height: auto; /* Allow the height to adjust proportionally based on the width */
+    margin: 0 auto; /* Center the logo horizontally */
+    display: block; /* Ensure the image is treated as a block element */
+}
+
+.images{
+    display:flex;
+    justify-content: center;
+
+}
+
+.Res {
+    width: 200px; /* Set the width of the logo */
+    height: auto; /* Allow the height to adjust proportionally based on the width */
+    margin: 0 auto; /* Center the logo horizontally */
+   
+}
+
+.CV {
+    width: 200px; /* Set the width of the logo */
+    height: auto; /* Allow the height to adjust proportionally based on the width */
+    margin: 0 auto; /* Center the logo horizontally */
+   
+}
+
+
+
